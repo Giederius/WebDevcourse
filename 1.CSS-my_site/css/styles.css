@@ -13,19 +13,34 @@ body {
 }
 
 .bottom-container {
+  background-color: #66bfbf;
+}
+
+.footer-link {
+  color: #11999e;
+  text-decoration: none;
 }
 
 h1 {
   margin-top: 0;
   font-family: "Sacramento", cursive;
-  font-size: 5.625rem; /*1 em = 16 px = 100% || 90px = 5.625em/
+  font-size: 5.625rem; /*1 em = 16 px = 100% || 90px = 5.625em*/
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin: 10px auto;
+  color: #66bfbf;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.subtitle {
+  font-weight: normal;
 }
 
 .bottom-cloud {
