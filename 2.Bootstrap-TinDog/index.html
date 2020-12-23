@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>TinDog</title>
+    <!-- Font Awesome import -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
     <!-- Font import - Montserrat & Ubuntu -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -28,10 +35,10 @@
 
   <body>
     <section id="title">
-      <div class="container-fluid">
+      <div class="container-fluid header">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="">Tindog</a>
+          <a class="navbar-brand" href="">tindog</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -63,29 +70,50 @@
         <div class="row justify-content-md-center">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-btn">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-btn"
+            >
+              <i class="fab fa-google-play"></i>
+              Download
+            </button>
           </div>
           <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup" />
+            <img
+              class="img-fluid rotated"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
           </div>
         </div>
       </div>
     </section>
 
     <!-- Features -->
-
-    <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
-
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
-    </section>
-
+    <div class="container-fluid features">
+      <section id="features">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="fas fa-check-circle featureicon"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-bullseye featureicon"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-heart featureicon"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find the love of your dog's life or your money back.</p>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- Testimonials -->
 
     <section id="testimonials">
