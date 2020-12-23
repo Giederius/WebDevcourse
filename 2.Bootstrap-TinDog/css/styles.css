@@ -5,6 +5,22 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 1.5;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #8f8f8f;
+}
+
 .navbar {
   padding-bottom: 4.5rem;
 }
@@ -29,7 +45,7 @@ h1 {
 }
 /* features container */
 .features {
-  padding: 50px;
+  padding: 7% 15%;
   background-color: white;
 }
 /* image rotation */
@@ -42,4 +58,39 @@ h1 {
 .featureicon {
   font-size: 3rem;
   color: #ef8172;
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* kad patraukti rodykles i sonus nuo contento, perkelem padding is testimonials(main container) i carousel item */
+.carousel-item {
+  padding: 7% 15%;
 }
