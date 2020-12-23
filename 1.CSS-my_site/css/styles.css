@@ -14,11 +14,19 @@ body {
 
 .bottom-container {
   background-color: #66bfbf;
+  padding: 25px;
 }
 
 .footer-link {
   color: #11999e;
   text-decoration: none;
+  padding: 0 15px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  padding-top: 10px;
+  color: #eaf6f6;
 }
 
 h1 {
@@ -39,6 +47,11 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #11999e;
 }
+
+p {
+  font-size: 0.8rem;
+  color: #40514e;
+}
 .subtitle {
   font-weight: normal;
 }
@@ -55,6 +68,43 @@ h3 {
 }
 
 .giedrius {
+  padding: 50px;
   width: 100px;
   height: 130px;
+}
+
+.profile-description {
+  margin: auto;
+  width: 50%;
+}
+
+hr {
+  border-top: 8px dotted #eaf6f6;
+  margin: 50px auto;
+  width: 75px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+.btn {
+  margin: 25px;
 }
