@@ -94,3 +94,14 @@ i:hover {
 .carousel-item {
   padding: 7% 15%;
 }
+
+/* Pricing section */
+
+#pricing {
+  text-align: center;
+  padding: 7% 8%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
