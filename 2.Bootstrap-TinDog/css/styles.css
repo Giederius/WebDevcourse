@@ -67,6 +67,7 @@ p {
 }
 /* features container */
 .features {
+  padding: 7% 15%;
   position: relative;
   z-index: 1;
 }
