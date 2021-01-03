@@ -51,8 +51,18 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
-    console.log("wrong");
+    playSound("wrong");
+    gameOver();
+    document.querySelector("h1").innerHTML = "Game Over, Press A to Restart";
+    startOver();
   }
+}
+
+// Restarting the game
+function startOver() {
+  level = 0;
+  gamePattern = [];
+  started = false;
 }
 
 // Detecting user button press
@@ -85,6 +95,14 @@ function animatePress(currentColor) {
   setTimeout(function () {
     activeButton.classList.remove("pressed");
   }, 100);
+}
+
+function gameOver() {
+  var over = document.querySelector("body");
+  over.classList.add("game-over");
+  setTimeout(function () {
+    over.classList.remove("game-over");
+  }, 200);
 }
 
 // playsound when the button is pressed
